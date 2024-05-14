@@ -71,7 +71,7 @@ resource "aws_security_group" "webSg" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "Gowthamterraform2024project"
+  bucket = "gowtham-terraform-proj"
 }
 
 resource "aws_instance" "webserver1" {
